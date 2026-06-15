@@ -1,0 +1,6 @@
+{
+  "name": "GAOLWIN",
+  "description": "منصة عربية رياضية متكاملة لمتابعة نتائج مباريات اليوم والبث المباشر ومسابقات التوقع الرياضي للمونديال والبطولات العالمية",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

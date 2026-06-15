@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Tajawal", "Inter", sans-serif;
+  --color-accent-emerald: #10b981;
+  --color-accent-emerald-hover: #059669;
+  --color-accent-gold: #fbbf24;
+  --color-dark-bg: #090d16;
+  --color-dark-card: #111827;
+  --color-dark-border: #1f293d;
+}
+
+body {
+  background-color: var(--color-dark-bg);
+  color: #f3f4f6;
+  font-family: var(--font-sans);
+  direction: rtl;
+}
+
+/* Custom scrollbars for Dark premium sleek look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-dark-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-dark-border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-emerald);
+}
+
+/* Video.js skin customizing */
+.video-js {
+  font-family: inherit !important;
+}
+.vjs-matrix.video-js {
+  color: var(--color-accent-emerald);
+}
+.vjs-matrix .vjs-big-play-button {
+  border-color: var(--color-accent-emerald);
+  background-color: rgba(16, 185, 129, 0.4);
+}
